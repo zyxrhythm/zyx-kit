@@ -1,4 +1,4 @@
 mkdir -p /tmp/$(whoami)/zyx-kit
 rm -rf /tmp/$(whoami)/zyx-kit/*
-PATH=$PATH:/tmp/$(whoami)/zyx-kit
+export PATH=$PATH:/tmp/$(whoami)/zyx-kit
 (cd /tmp/$(whoami)/zyx-kit ; wget https://raw.githubusercontent.com/zyxrhythm/zyx-tools/master/nix/toolbox.sh; chmod +x ./toolbox.sh; ./toolbox.sh kit-deploy)
