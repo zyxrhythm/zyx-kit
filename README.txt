@@ -84,23 +84,26 @@ This is a special domain check tool, the tool is basically the command line vers
         z github.com -f
 
 
-Tool #2: the 'prm' command
-This script is basically orbiting the 'stat' command. The script shows files and folders permission on 'octal number' format.
+Tool #2: the prm 'command' (script)
+The script basically orbits the 'stat' command. The script shows files and folders permission on 'octal number' format.
 
-You can use it by simply typing 'prm' followed by the path to the file/directory. Typing 'prm -h' adds hidden files/folders that starts with '.' on the results. And 'prm -x' shall include the owner of the file/folder in the result. If you do not include a path to file/folder the script will be executed on your current working directory.
+You can use it by simply typing 'prm' followed by the path to the directory. Typing 'prm -h' adds hidden files & folders that starts with '.' on the results. And 'prm -x' shall include the "user and group" that owns of the folder in the result. If you do not include a path to the file/folder the script will try to execute on current working directory. Parameter -f and -fx is for files. Typing 'prm -f' is like plain 'prm' but is intended for a file. Typing 'prm -fx' is like 'prm -x' but is intended for a file.
 
     sample syntax is as follows:
-
-    prm /path/to/dirorfile
+    
+    prm
+    
+    prm /path/to/dir
     prm -h /path/to/dir
-    prm -x /path/to/dirorfile
+    prm -x /path/to/dir
+    
+    prm -f /path/to/file
+    prm -fx /path/to/file
         
 
-Tool #3: the 'fprm' command
-
+Tool #3: the fprm 'command' (script)
 Fix permissions of files and folders
-
-This script is based on the following blog: 
+The script is based on the following blog: 
 https://odd.blog/2013/11/05/fix-file-644-directory-775-permissions-linux-easily/
 
 $1 = directory permission 
