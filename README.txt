@@ -17,7 +17,7 @@
 
 
 ------------------------------------
-SAMPLE CONFIGURATION of login.txt:
+SAMPLE CONFIGURATION of login.conf:
 ------------------------------------
 host=192.168.43.1
 username=zyx
@@ -99,7 +99,8 @@ You can use it by simply typing 'prm' followed by the path to the directory. Typ
     
     prm -f /path/to/file
     prm -fx /path/to/file
-        
+    
+You can type 'prm help' for more info.        
 
 Tool #3: the fprm 'command' (script)
 Fix permissions of files and folders
@@ -119,9 +120,10 @@ $3 = recursive switch
      if a valid directtory is used as 3rd parameter, the script will update permissions on that directory.
      if left blank the script will do a non-recursive file and dir perm fix on the current dir
 
+You can type 'fprm help' for more info.
 
 Tool #4: the 'c' command 
-Ultimate clear screen ;)
+It is the "ULTIMATE CLEAR SCREEN". ;)
 
 
 Tool #5: the 'd' command 
@@ -194,9 +196,9 @@ The repo/zip Contains:
 
 1.) KITTY.exe from (http://www.9bis.net/kitty/)
   
-  For license and copyright of Kitty try visiting their webpage.
+  For license and copyright of KiTTY try visiting their webdite http://www.9bis.net/kitty/
 
-2.) Some customized scripts and stuffs by https://github.com/zyxrhythm/
+2.) Some customized scripts and stuffs by https://github.com/zyxrhythm
 -----------------------------------------
 =========================================
 
@@ -204,4 +206,5 @@ The repo/zip Contains:
 
 
   MIT License
-  Copyright (c) 2017 Zyx Rhythm https://github.com/zyxrhythm
+  Copyright (c) 2017 Zyx Rhythm 
+  https://github.com/zyxrhythm
